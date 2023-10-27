@@ -53,14 +53,14 @@ class _ColorPaletteAppState extends State<ColorPaletteApp> {
               child: ElevatedButton(
                 onPressed: generateColorPalette,
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.purple,  // Transparent Button
+                  primary: Colors.purple,
                   textStyle: const TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),  // Reduced width
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),  // Reduce width
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50),  // Rounded corners for the button
+                    borderRadius: BorderRadius.circular(50),
                     side: const BorderSide(
                       color: Color(0xFF000000),  // Border color
                     ),
@@ -101,7 +101,7 @@ class ColorBox extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),  // Rounded rectangle
       ),
       child: Align(
-        alignment: Alignment.bottomRight,  // Align the ASCII code to the bottom right
+        alignment: Alignment.bottomRight,  // Align to bottom right
         child: Container(
           padding: EdgeInsets.all(8),
           decoration: BoxDecoration(
